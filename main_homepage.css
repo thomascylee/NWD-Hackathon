@@ -40,6 +40,24 @@ body {
 Hero
 =================================================
 */
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user p {
+    margin: 0;
+    padding-left:10px;
+    font-weight: 700;
+    color:white;
+}
+
+.user {
+    justify-self: right;
+    margin-right:20px;
+}
+
 .bg-dark {
     background-color: rgba(80, 80, 80, 0.5) !important;
 }
@@ -56,7 +74,7 @@ Hero
     right: 0;
     bottom: 0;
     overflow: hidden;
-    background-image: url(../images/home.jpg);
+    background-image: url(images/home.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -150,27 +168,27 @@ Location
 }
 
 #china {
-    background-image: url(../images/china.jpg);
+    background-image: url(images/china.jpg);
 }
 
 #japan {
-    background-image: url(../images/japan.jpg);
+    background-image: url(images/japan.jpg);
 }
 
 #thailand {
-    background-image: url(../images/thailand.jpg);
+    background-image: url(images/thailand.jpg);
 }
 
 #french {
-    background-image: url(../images/france.jpg);
+    background-image: url(images/france.jpg);
 }
 
 #germany {
-    background-image: url(../images/germany.jpeg);
+    background-image: url(images/germany.jpeg);
 }
 
 #usa {
-    background-image: url(../images/usa.jpg);
+    background-image: url(images/usa.jpg);
 }
 
 .btn-lookmore {

@@ -1,0 +1,111 @@
+body{
+    font-family: 'Josefin Slab', serif;
+}
+
+.profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.info p{
+    font-size: 18px;
+}
+
+.itinerary a{
+    margin: 0 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.itinerary a:hover{
+    color: red;
+}
+
+.itinerary_button{
+    display: flex;
+    flex-flow: column nowrap;  
+    justify-content: center;
+}
+
+.itinerary_button button{
+    margin: 5px 0;
+}
+
+.period{
+    width: 500px;
+    display: inline-block;
+}
+
+.form-group:nth-child(4){
+    float: right;
+}
+
+.modal-body button{
+    margin: 5px auto;
+}
+
+.phone {
+    border: 25px solid rgb(50, 50, 50);
+    border-bottom-width: 50px;
+    border-top-width: 50px;
+    border-radius: 30px;
+}
+
+.map {
+    height:550px;
+    width:350px;
+    background-image: url(0.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s ease;
+}
+
+.map0 {
+    background-image: url(0.jpg);
+}
+.map1 {
+    background-image: url(1.jpg);
+}
+.map2 {
+    background-image: url(2.jpg);
+}
+.map3 {
+    background-image: url(3.jpg);
+}
+.map4 {
+    background-image: url(4.jpg);
+}
+.map5 {
+    background-image: url(5.jpg);
+}
+
+.flexBox-column{
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-circle {
+    background-color: aliceblue;
+    width:35px;
+    height:35px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 7px;
+    border:none;
+    z-index:1000;
+}
+
+.btn-primary:hover {
+    cursor: pointer!important;
+    background-color: gray!important;
+    background-color: gray!important;
+}
+
+#table-container {
+    transition: 0.8s ease;
+}
