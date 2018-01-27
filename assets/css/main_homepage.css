@@ -1,0 +1,190 @@
+/* 
+=================================================
+General
+=================================================
+*/
+
+a {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.container-fluid {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Slab', serif;
+}
+
+.row {
+    margin-bottom:30px;
+}
+.flexBox-column,
+.flexBox-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexBox-row {
+    flex-direction: row;
+}
+
+/*
+=================================================
+Hero
+=================================================
+*/
+.bg-dark {
+    background-color: rgba(80, 80, 80, 0.5) !important;
+}
+.jumbotron {
+    position: relative;
+    padding: 200px 15px;
+}
+
+.overlay {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-image: url(../images/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: brightness(90%);
+    z-index:0;
+    
+}
+
+.hero-box {
+    position:relative;
+    z-index: 1;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.hero-box h1 {
+    font-size: 8.5vw;
+}
+
+.hero-box h3 {
+    font-size: 2vw;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.searchBar {
+    margin-top: 25px;
+    width: 60%;
+}
+.searchBar-input {
+    width: 60%;
+    height: 40px;
+    font-weight:700;
+}
+
+.btn-search {
+    width: 100px;
+    height: 40px;
+    background-color: #F38343;
+    border: none;
+}
+
+/* 
+=================================================
+FunctionBar
+=================================================
+*/
+
+.functionBar h4 {
+    font-weight: 700;
+    margin-bottom:0;
+    padding-left: 15px;
+    color: #005082
+}
+
+.functionBar .fa {
+    color: #005082
+}
+
+.function-button {
+    width: 320px;
+    height: 80px;
+    border: 5px solid #005082;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.functionBox :hover {
+    border-color: #F38343;
+}
+
+.functionBox :hover i,
+.functionBox :hover h4 {
+    color: #F38343;
+}
+
+/* 
+=================================================
+Location
+=================================================
+*/
+.photos {
+    height:300px;
+    /* margin:15px; */
+}
+
+#china, #japan, #thailand,
+#french, #germany, #usa {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+}
+
+#china {
+    background-image: url(../images/china.jpg);
+}
+
+#japan {
+    background-image: url(../images/japan.jpg);
+}
+
+#thailand {
+    background-image: url(../images/thailand.jpg);
+}
+
+#french {
+    background-image: url(../images/france.jpg);
+}
+
+#germany {
+    background-image: url(../images/germany.jpeg);
+}
+
+#usa {
+    background-image: url(../images/usa.jpg);
+}
+
+.btn-lookmore {
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+/*
+=================================================
+footer
+================================================= 
+*/
+
+.footer {
+    background-color: #005082;
+    padding:50px;
+}
