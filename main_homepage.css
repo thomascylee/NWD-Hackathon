@@ -206,3 +206,30 @@ footer
     background-color: #005082;
     padding:50px;
 }
+
+/* 
+=================================================
+About Us
+=================================================
+ */
+
+ #aboutUs {
+     padding: 100px 50px;
+ }
+
+ img {
+     max-height: 400px;
+ }
+
+ #aboutUs .row {
+    margin-top: 20px;
+ }
+
+ #aboutUs .titleUs,
+ #aboutUs h1 {
+     font-weight: 700;
+ }
+
+ .last {
+     margin-top: 90px;
+ }
