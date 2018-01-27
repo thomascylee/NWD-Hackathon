@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Travel Free</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,400i,600,600i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/be707ba40e.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <div class="row info">
+            <div class="col-md-3 text-center">
+                <img src="profile.jpg" class="profile">
+            </div>
+            <div class="col-md-6">
+                <br>
+                <h1>Thomas Lee</h1>
+                <p>21 itineraries &nbsp &nbsp 572 followers</p>
+                <p>
+                    <b>Travel Motto:</b> Travel wth passion. Fly with dreams.</p>
+            </div>
+            <div class="col-md-3 itinerary_button">
+                <button type="button" class="btn btn-primary">Create New Itinerary</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Import Your Travel</button>
+                <button type="button" class="btn btn-primary">Edit your profile</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row itinerary">
+            <div class="col-12 text-center">
+                <a href="#">Itineraries</a>
+                <a href="#">Famous</a>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Your Previous Journey</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <button type="button" class="btn btn-primary" id="chiangmai"><a href="itinerary.html">Chiang Mai - Oct 2017</a></button>
+                        <button type="button" class="btn btn-primary" id="cinqueterre">Cinque Terre - July 2017</button>
+                        <button type="button" class="btn btn-primary" id="harbin">Harbin - Jan 2017</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+</body>
+
+</html>
